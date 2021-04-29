@@ -1,0 +1,248 @@
+@viewport {
+  width: device-width ;
+  zoom: 1.0 ;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 18px;
+	text-align: center;
+}
+
+nav {
+    text-align: left;
+    position: fixed;
+    background-color: #FFFFFF;
+    top: 0;
+    width: 100%;
+    height: auto;
+}
+
+nav img {
+    width: 100px;
+    margin: 0px 0px; 
+}
+
+nav span {
+    font-size: 15px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    margin: 0px 0px;
+    padding: 10px;
+    display: inline-block;
+}
+
+nav a {
+    color: #0056a2;
+}
+
+nav a:hover {
+    color: #FFFFFF;
+    border: solid 5px #00a222;
+    background-color: #00a222;
+    border-radius: 0px 10px 0px 10px
+}
+
+nav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+
+.content {
+    width: 100%;
+    height: 120%;
+    margin-top: 40px;
+    margin: 40px auto;
+    overflow: auto;
+}
+
+.header {
+    background-image: url(./backgroundh.png);
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+}
+#bodyV {
+    background-image: url(./backgroundVb.png);
+    background-position: center;
+    background-size: cover;
+    height: 1400px;
+}
+
+#bodyB {
+    background-image: url(./backgroundBb.png);
+    background-position: center;
+    background-size: cover;
+    height: 1400px;
+}
+
+#bodyK {
+    background-image: url(./backgroundKb.png);
+    background-position: center;
+    background-size: cover;
+    height: 1400px;
+}
+
+.header h1 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 300;
+  line-height: 40px;
+  width: 90%;
+  padding: 20px;
+  text-align: right;
+  margin: 0px 0px;
+  float: right;
+	color: #FFFFF;
+	background-color: #00a222;
+	font-size: 40px;
+}
+
+.header h2 {
+    background-color: #c1c1c1;
+    color: #1a485f;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 10px;
+    letter-spacing: 1px;
+    width: 14%;
+    padding: 20px;
+    text-align: right;
+    margin: 0px 0px;
+    float: right;
+}
+
+.header2 h1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    line-height: 40px;
+    width: 68%;
+    padding: 20px;
+    text-align: right;
+    margin: 0px 0px;
+    float: right;
+	  color: #FFF;
+	  background-color: #001252;
+	  font-size: 40px;
+}
+
+.header2 h2 {
+    background-color: #dcdcdc;
+    color: #9b4444;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 10px;
+    letter-spacing: 1px;
+    width: 10%;
+    padding: 20px;
+    text-align: right;
+    margin: 0px 0px;
+    float: right;
+}
+
+.content {
+  height: 100%;
+}
+
+.content .body {
+    width: 100%;
+    margin: 0px 0px;
+}
+
+.body p {
+    color: #333333;
+    font-weight: 100;
+    line-height: 22px;
+    width: 90%;
+    margin-top: 18px;
+}
+
+ul.B {
+    padding: 0px;
+}
+
+ul.B li {
+    display: inline-block;
+    background-color: #F8F8F8;
+    list-style: none;
+    width: 210px;
+    padding: 10px 20px;
+    margin-bottom: 3px;
+}
+
+ul.B p {
+  font-size: 18px;
+}
+
+#B1 {
+  box-shadow: 17px 17px 0px 0px #d6d6d6;
+}
+
+footer {
+  background-color: #4b4141;
+  height: 100px;
+  width: 100%;
+  bottom: 0;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 10px
+}
+
+
+
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}

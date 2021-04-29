@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Online-Shop</title>
+    <link href="style.css"rel="stylesheet"type="text/css"/>
+  </head>
+  <body>
+    <nav>
+		<span style="font-size:30px;cursor:pointer;" onclick="openNav()">&#9776; Menu</span>
+		<input type="text"placeholder="Suchen...">
+	</nav>
+	<script>
+	function openNav() {
+	  document.getElementById("myNav").style.width = "100%";
+	}
+
+	function closeNav() {
+	  document.getElementById("myNav").style.width = "0%";
+	}
+	</script>
+	<div id="myNav" class="overlay">
+	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	  <div class="overlay-content">
+		<a href="./index.html">Start</a>
+		<a href="./Videospiele.html">Videospiele</a>
+		<a href="./Brettspiele.html">Brettspiele</a>
+		<a href="./Kartenspiele.html">Kartenspiele</a>
+	  </div>
+	</div>
+    <div class="content">
+      <div class="header">
+        <h1>Kartenspiele</h1>
+        <h2>Dein neues Kartenspiel</h2>
+      </div>
+      <div class="body" id="bodyK">
+        <ul class="B">
+          <li id="B1">
+            <h3>Munchkin</h3>
+            <p>Jeder Munchkin-Spieler beginnt das Spiel als menschlicher Abenteurer ohne Ausrüstungsgegenstände auf der ersten Stufe (d. h. ohne Karten, die vor ihm ausliegen). Die Spieler versuchen nun, sich im Laufe des Spiels zu verbessern, um schließlich Stufe 10 zu erreichen und das Spiel zu gewinnen.</p>
+          </li>
+          <li id="B1">
+            <h3>Preis</h3>
+            <p>Das Spiel <em>Munchkin</em> gibt es bei uns schon ab nur <em>12.96€</em>.<br><br>Bestellen Sie <a href="./shop.html">hier</a>!</p>
+          </li>
+		  <li id="B1">
+            <h3>Bild</h3>
+            <img src="./K1.png" width=200 height=200></img>
+          </li>
+		  <br>
+		  <li id="B1">
+            <h3>UNO</h3>
+            <p>Ähnlich wie Mau Mau ist UNO ein Ablegespiel. Es gilt in mehreren Runden 500 oder mehr Punkte zu erreichen. Pro Runde gewinnt der Spieler, der als erster alle Karten abgelegt hat. Er bekommt dann die Summer der Punkte aller noch nicht abgelegten Karten der Mitspieler gutgeschrieben.</p>
+          </li>
+          <li id="B1">
+            <h3>Preis</h3>
+            <p>Das Spiel <em>UNO</em> gibt es bei uns schon ab nur <em>9.99€</em>.<br><br>Bestellen Sie <a href="./shop.html">hier</a>!</p>
+          </li>
+		  <li id="B1">
+            <h3>Bild</h3>
+            <img src="./K2.png" width=200 height=200></img>
+          </li>
+		  <br>
+		  <li id="B1">
+            <h3>Poker</h3>
+            <p>Poker gehört einer Familie von Kartenspielen, die üblicherweise mit Pokerkarten im Stil des anglo-amerikanischen Blatts zu 52 Karten gespielt werden. Das bedeutet, für das Spiel benötigt man nur ein Paket Karten, da die Einsätze auf jedem beliebigen Tisch platziert werden können.</p>
+          </li>
+          <li id="B1">
+            <h3>Preis</h3>
+            <p>Das Spiel <em>Poker</em> gibt es bei uns schon ab nur <em>29.99€</em>.<br><br>Bestellen Sie <a href="./shop.html">hier</a>!</p>
+          </li>
+		  <li id="B1">
+            <h3>Bild</h3>
+            <img src="./K3.png" width=200 height=200></img>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+  <footer>
+    <p><br>Online-Shop.com <br><br><br> Online-Shop © OS&MS 2021</p>
+  </footer>
+</html>

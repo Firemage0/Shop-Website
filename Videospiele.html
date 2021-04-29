@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Online-Shop</title>
+    <link href="style.css"rel="stylesheet"type="text/css"/>
+  </head>
+  <body>
+    <nav>
+		<span style="font-size:30px;cursor:pointer;" onclick="openNav()">&#9776; Menu</span>
+		<input type="text"placeholder="Suchen...">
+	</nav>
+	<script>
+	function openNav() {
+	  document.getElementById("myNav").style.width = "100%";
+	}
+
+	function closeNav() {
+	  document.getElementById("myNav").style.width = "0%";
+	}
+	</script>
+	<div id="myNav" class="overlay">
+	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	  <div class="overlay-content">
+		<a href="./index.html">Start</a>
+		<a href="./Videospiele.html">Videospiele</a>
+		<a href="./Brettspiele.html">Brettspiele</a>
+		<a href="./Kartenspiele.html">Kartenspiele</a>
+	  </div>
+	</div>
+    <div class="content">
+      <div class="header">
+        <h1>Videospiele</h1>
+        <h2>Dein neues Videospiel</h2>
+      </div>
+      <div class="body" id="bodyV">
+        <ul class="B">
+          <li id="B1">
+            <h3>Minecraft</h3>
+            <p>Minecraft ist ein Spiel, in dem es um das Abbauen und Sammeln von Rohstoffen Ssowie um das Herstellen und Bauen eigener Gebäude geht. Das Besondere an Minecraft ist, dass die gesamte 3D-Landschaft aus würfelförmigen Blöcken besteht.</p>
+          </li>
+          <li id="B1">
+            <h3>Preis</h3>
+            <p>Das Spiel <em>Minecraft</em> gibt es bei uns schon ab nur <em>23.99€</em>.<br><br>Bestellen Sie <a href="./shop.html">hier</a>!</p>
+          </li>
+		  <li id="B1">
+            <h3>Bild</h3>
+            <img src="./V1.png" width=200 height=200></img>
+          </li>
+		  <br>
+		  <li id="B1">
+            <h3>Enter the Gungeon</h3>
+            <p>Im Indie-Shooter Enter the Gungeon kämpfen sich ein oder (im lokalen Koop) Spieler durch den titelgebenden Kerker, um eine legendäre Waffe zu ergattern. Das Spiel ist eine Mischung aus Twin-Stick- und Bullet-Hell-Shooter, setzt auf zufallsbasierte Levels und Permadeath.</p>
+          </li>
+          <li id="B1">
+            <h3>Preis</h3>
+            <p>Das Spiel <em>Enter the Gungeon</em> gibt es bei uns schon ab nur <em>14.99€</em>.<br><br>Bestellen Sie <a href="./shop.html">hier</a>!</p>
+          </li>
+		  <li id="B1">
+            <h3>Bild</h3>
+            <img src="./V2.png" width=200 height=200></img>
+          </li>
+		  <br>
+		  <li id="B1">
+            <h3>Hallow Knight</h3>
+            <p>Hollow Knight erzählt im Grunde die klassische Geschichte vom Kampf zwischen Licht und Dunkelheit. Handlungsort ist ein gefallenes Königreich namens Heilandsnest, das vor langer Zeit von einer Seuche in Gestalt eines parasitären Schleimpilzes heimgesucht und nahezu vollständig ausgerottet wurde.</p>
+          </li>
+          <li id="B1">
+            <h3>Preis</h3>
+            <p>Das Spiel <em>Hallow Knight</em> gibt es bei uns schon ab nur <em>19.99€</em>.<br><br>Bestellen Sie <a href="./shop.html">hier</a>!</p>
+          </li>
+		  <li id="B1">
+            <h3>Bild</h3>
+            <img src="./V3.png" width=200 height=200></img>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+  <footer>
+    <p><br>Online-Shop.com <br><br><br> Online-Shop © OS&MS 2021</p>
+  </footer>
+</html>

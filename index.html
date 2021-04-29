@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Online-Shop</title>
+    <link href="style.css"rel="stylesheet"type="text/css"/>
+  </head>
+  <body>
+    <nav>
+		<span style="font-size:30px;cursor:pointer;" onclick="openNav()">&#9776; Menu</span>
+		<input type="text"placeholder="Suchen...">
+	</nav>
+	<script>
+	function openNav() {
+	  document.getElementById("myNav").style.width = "100%";
+	}
+
+	function closeNav() {
+	  document.getElementById("myNav").style.width = "0%";
+	}
+	</script>
+	<div id="myNav" class="overlay">
+	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	  <div class="overlay-content">
+		<a href="./index.html">Start</a>
+		<a href="./Videospiele.html">Videospiele</a>
+		<a href="./Brettspiele.html">Brettspiele</a>
+		<a href="./Kartenspiele.html">Kartenspiele</a>
+	  </div>
+	</div>
+    <div class="content">
+      <div class="header">
+          <h1>Online-Shop</h1>
+      </div>
+    </div>
+  </body>
+  <footer>
+    <p><br>Online-Shop.com <br><br><br> Online-Shop © OS&MS 2021</p>
+  </footer>
+</html>

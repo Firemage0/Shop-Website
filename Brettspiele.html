@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Online-Shop</title>
+    <link href="style.css"rel="stylesheet"type="text/css"/>
+  </head>
+  <body>
+    <nav>
+		<span style="font-size:30px;cursor:pointer;" onclick="openNav()">&#9776; Menu</span>
+		<input type="text"placeholder="Suchen...">
+	</nav>
+	<script>
+	function openNav() {
+	  document.getElementById("myNav").style.width = "100%";
+	}
+
+	function closeNav() {
+	  document.getElementById("myNav").style.width = "0%";
+	}
+	</script>
+	<div id="myNav" class="overlay">
+	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	  <div class="overlay-content">
+		<a href="./index.html">Start</a>
+		<a href="./Videospiele.html">Videospiele</a>
+		<a href="./Brettspiele.html">Brettspiele</a>
+		<a href="./Kartenspiele.html">Kartenspiele</a>
+	  </div>
+	</div>
+    <div class="content">
+      <div class="header">
+        <h1>Brettspiele</h1>
+        <h2>Dein neues Brettspiel</h2>
+      </div>
+      <div class="body" id="bodyB">
+        <ul class="B">
+          <li id="B1">
+            <h3>Monopoly</h3>
+            <p>Monopoly ist ein bekanntes US-amerikanisches Brettspiel. Ziel des Spiels ist es, ein Grundstücksimperium aufzubauen und alle anderen Mitspieler in die Insolvenz zu treiben.</p>
+          </li>
+          <li id="B1">
+            <h3>Preis</h3>
+            <p>Das Spiel <em>Monopoly</em> gibt es bei uns schon ab nur <em>23.99€</em>.<br><br>Bestellen Sie <a href="./shop.html">hier</a>!</p>
+          </li>
+		  <li id="B1">
+            <h3>Bild</h3>
+            <img src="./B1.png" width=200 height=200></img>
+          </li>
+		  <br>
+		  <li id="B1">
+            <h3>Scotland Yard</h3>
+            <p>Scotland Yard Spielbericht. In diesem Spieleklassiker übernimmt ein Spieler die Rolle des geheimnisvollen Schurken Mister X, während die anderen Spieler die Rolle von Detektiven übernehmen, die dann Mister X fangen müssen. Das ist schwierig in London, noch dazu haben die Spieler lediglich 24 Runden Zeit, dies zu tun.</p>
+          </li>
+          <li id="B1">
+            <h3>Preis</h3>
+            <p>Das Spiel <em>Scotland Yard</em> gibt es bei uns schon ab nur <em>24.99€</em>.<br><br>Bestellen Sie <a href="./shop.html">hier</a>!</p>
+          </li>
+		  <li id="B1">
+            <h3>Bild</h3>
+            <img src="./B2.png" width=200 height=200></img>
+          </li>
+		  <br>
+		  <li id="B1">
+            <h3>Dungeons & Dragons Einsteigerset</h3>
+            <p>In Dungeons & Dragons muss ein Team von Spieler erschaffenen Charakteren eine oder mehr Quest erfüllen, auf dieser Quest werden sie oft Problemen begegnen, welche vom Dungeon Master/ Game Master kontrolliert werden, auf ihrer Reise kann den Helden auf fast alles passieren.</p>
+          </li>
+          <li id="B1">
+            <h3>Preis</h3>
+            <p>Das Spiel <em>Dungeons & Dragons Einsteigerset</em> gibt es bei uns schon ab nur <em>25€</em>.<br><br>Bestellen Sie <a href="./shop.html">hier</a>!</p>
+          </li>
+		  <li id="B1">
+            <h3>Bild</h3>
+            <img src="./B3.png" width=200 height=200></img>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </body>
+  <footer>
+    <p><br>Online-Shop.com <br><br><br> Online-Shop © OS&MS 2021</p>
+  </footer>
+</html>
